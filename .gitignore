@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Conda environment
+.conda/
+
+# Virtual environments
+env/
+venv/
+ENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# VSCode settings
+.vscode/
+
+# macOS system files
+.DS_Store
+
+# Logs
+*.log
+
+# Model checkpoints or large artifacts (optional)
+*.pth
+*.ckpt
+
+# Python cache
+*.pyc
+*.pyo
+*.pyd
+
+# Doctr build or temporary files
+doctr/_tmp/
+
+# Ignore OCR outputs if unnecessary
+ocr_output.txt
+
+# Ignore result directory
+*/result/
